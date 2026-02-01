@@ -24,7 +24,7 @@ PersonaPlex, NVIDIA ve Kyutai Labs tarafından geliştirilen **Moshi** ses model
    ![Ekran kartı seçimi](assets/gpu-a100.png)
 
 3. **Hugging Face Token & Lisans:** 
-   - [nvidia/PersonaPlex](https://huggingface.co/nvidia/PersonaPlex) model sayfasına giderek lisansı kabul edin.
+   - [nvidia/PersonaPlex](https://huggingface.co/nvidia/personaplex-7b-v1) model sayfasına giderek lisansı kabul edin.
    - [Hugging Face Ayarlar](https://huggingface.co/settings/tokens) sayfasından bir "WRITE" token oluşturun.
 
    ![HuggingFace](assets/hf-create-token.png)
@@ -69,7 +69,7 @@ PersonaPlex is a project that allows you to easily run the **Moshi** voice model
 2. **GPU Setting:** Set Hardware accelerator to "A100 GPU" (or better) in "Edit > Notebook settings".
 
 3. **Hugging Face Token & License:** 
-   - Log in to your Hugging Face account and accept the [PersonaPlex model license here](https://huggingface.co/nvidia/PersonaPlex).
+   - Log in to your Hugging Face account and accept the [PersonaPlex model license here](https://huggingface.co/nvidia/personaplex-7b-v1).
    - Create a "WRITE" token at [Hugging Face Settings](https://huggingface.co/settings/tokens).
    - Paste it into the `HF_TOKEN` variable in the notebook.
 
